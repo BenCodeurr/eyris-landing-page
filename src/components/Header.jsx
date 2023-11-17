@@ -2,6 +2,7 @@
 
 import logo from "./../assets/Images/logo.png";
 import HeaderItem from "./HeaderItems";
+
 function Header() {
   const menu = [
     {
@@ -22,10 +23,10 @@ function Header() {
     },
   ];
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between pt-12 px-12">
       <div className="flex gap-8 items-center">
         <img src={logo} className="w-[60px] md:w-[70px] object-cover ml-8" />
-        <div className="hidden md:flex gap-8 ml-[300px]">
+        <div className="flex gap-8 ml-[300px]">
           {menu.map((item) => (
             <HeaderItem key={item.id} name={item.name} />
           ))}

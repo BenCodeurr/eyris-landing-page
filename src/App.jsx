@@ -1,14 +1,13 @@
-
-import './App.css'
 import Header from './components/Header'
-import Hero from './components/Hero'
+import Landing from './Pages/Landing'
+
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Hero />
+      <Landing />
     </>
   )
 }
