@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 
-import logo from "./../assets/Images/logo.png";
+import logo from "./../assets/images/logo.png";
 import HeaderItem from "./HeaderItems";
 
 function Header() {
