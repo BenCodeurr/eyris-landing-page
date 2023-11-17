@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
-import hero from "./../assets/Images/hero.svg"
-import partner1 from "./../assets/Images/mest.svg"
-import partner2 from "./../assets/Images/partner.svg"
-import iris from "./../assets/Images/iris.svg"
+import hero from "./../assets/images/hero.svg"
+import partner1 from "./../assets/images/mest.svg"
+import partner2 from "./../assets/images/partner.svg"
+import iris from "./../assets/images/iris.svg"
 import Features from "../components/Features"
 import Footer from '../components/Footer'
 
