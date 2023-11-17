@@ -3,6 +3,8 @@ import hero from "./../assets/images/hero.svg"
 import partner1 from "./../assets/images/mest.svg"
 import partner2 from "./../assets/images/partner.svg"
 import iris from "./../assets/images/iris.svg"
+import meal from "./../assets/images/meal.svg"
+import diet from "./../assets/images/diet-tips.svg"
 import Features from "../components/Features"
 import Footer from '../components/Footer'
 
@@ -33,7 +35,12 @@ function Landing() {
 
 
       {/* ------------Features section Starts------------------*/}
-      <Features title="FEATURES WE PROVIDE" subtitle="Monitor your Blood Sugar Levels" content="Revolutionizing the way you care for your well-being, we've integrated cutting-edge iris scanning technology into the process" imgURL={iris}/>
+      <Features title="FEATURES WE PROVIDE" subtitle="Monitor your Blood Sugar Levels" content="Revolutionizing the way you care for your well-being, we've integrated cutting-edge iris scanning technology into the process" imgURL={iris} />
+
+      <Features subtitle="Scan your meals to get the composition." content="Unlock the power of personalized nutrition by simply scanning your meals to reveal their composition. Embrace a seamless and innovative approach to understanding what fuels your body. " imgURL={meal} isSecond />
+
+      <Features subtitle="Get Dietary Tips to Stay Healthy" content="Our personalized approach considers your unique needs, providing you with insightful recommendations to optimize your nutrition" imgURL={diet} isThird />
+
 
 
       <Footer />
