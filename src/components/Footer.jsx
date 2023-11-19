@@ -43,7 +43,12 @@ function Footer() {
             {menuFooter2.map((item) => (
                 <FooterItems key={item.id} name={item.name}/>
             ))}
+            
         </div>
+        <div className="flex justify-center mt-[-10px]">
+            <div className=" w-[50%] border-b-[1px] border-solid border-black"></div>
+        </div>
+        
     </>
   )
 }
