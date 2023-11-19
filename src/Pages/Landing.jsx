@@ -21,7 +21,7 @@ function Landing() {
     {/* ------------Hero section Starts------------------*/}
       <div className="text-black flex gap-[40px] mt-[100px] mb-8 text-left px-20">
           <div className="">
-              <h2 className="text-[50px] font-semibold leading-[50px] mb-8"><span className="text-blue-800">Seamless, Painless<br/> & Convenient</span> <br/>Way to Monitor your Blood Sugar Levels</h2>
+              <h2 className="text-[50px] font-semibold font-roboto leading-[50px] mb-8"><span className="text-blue-800">Seamless, Painless<br/> & Convenient</span> <br/>Way to Monitor your Blood Sugar Levels</h2>
               <p className="mb-8 text-[15px]">Experience the future of blood sugar monitoring with our Seamless, Painless & Convenient solution.</p>
               <a href="#" className="border rounded-[5px] text-white bg-teal-600 text-[12px] px-12 py-3">Start Free Trial</a>
           </div>
@@ -51,7 +51,7 @@ function Landing() {
       {/* Testimonials */}
       <div className="text-black bg-zinc-100 flex flex-col items-center text-center p-16">
         <h2 className="font-extrabold mb-8">TESTIMONIALS</h2>
-        <p className="mb-8 text-stone-900 italic font-normal">“This product has revolutionized my health routine. The Seamless, Painless & Convenient blood sugar monitoring, with iris scanning technology, offers a stress-free experience. The dietary tips are personalized and invaluable, making it a must-have for anyone seeking a modern and efficient approach to health management. Highly recommended!”</p>
+        <p className="mb-8 text-stone-900 italic">“This product has revolutionized my health routine. The Seamless, Painless & Convenient blood sugar monitoring, with iris scanning technology, offers a stress-free experience. The dietary tips are personalized and invaluable, making it a must-have for anyone seeking a modern and efficient approach to health management. Highly recommended!”</p>
 
         <img src={tesmonial} alt="" className="mb-3"/>
         <p className="text-xs font-semibold">Emily Fiagbedzi</p>
