@@ -50,21 +50,21 @@ function Footer() {
       </div>
 
       <div className="text-teal-600 flex gap-5 justify-center px-10 py-5">
-        <div className="border-solid border-[1px] border-teal-600 rounded-full flex items-center justify-center p-1 hover:bg-teal-600 hover:text-white">
+        <div className="border-solid border-[1px] border-teal-600 rounded-full flex items-center justify-center p-1 hover:bg-teal-600 hover:text-white cursor-pointer">
           <FaLinkedin />
         </div>
-        <div className="border-solid border-[1px] border-teal-600 rounded-full flex items-center justify-center p-1 hover:bg-teal-600 hover:text-white">
+        <div className="border-solid border-[1px] border-teal-600 rounded-full flex items-center justify-center p-1 hover:bg-teal-600 hover:text-white cursor-pointer">
           <FaInstagram />
         </div>
-        <div className="border-solid border-[1px] border-teal-600 rounded-full flex items-center justify-center p-1 hover:bg-teal-600 hover:text-white">
+        <div className="border-solid border-[1px] border-teal-600 rounded-full flex items-center justify-center p-1 hover:bg-teal-600 hover:text-white cursor-pointer">
           <FaFacebook />
         </div>
-        <div className="border-solid border-[1px] border-teal-600 rounded-full flex items-center justify-center p-1 hover:bg-teal-600 hover:text-white">
+        <div className="border-solid border-[1px] border-teal-600 rounded-full flex items-center justify-center p-1 hover:bg-teal-600 hover:text-white cursor-pointer">
           <FaYoutube />
         </div>
       </div>
 
-        <p className="text-black text-[13px] font-mulish text-center pb-2">© 2023, All Rights Reserved Privacy — Terms</p>
+        <p className="text-black text-[13px] font-mulish text-center pb-2">© 2023, All Rights Reserved.   Privacy — Terms</p>
     </>
   );
 }

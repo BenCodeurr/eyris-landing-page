@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import hero from "./../assets/images/hero.svg"
+import hero from "./../assets/images/hero.gif"
 import partner1 from "./../assets/images/mest.svg"
 import partner2 from "./../assets/images/partner.svg"
 import iris from "./../assets/images/iris.svg"
@@ -73,7 +73,54 @@ function Landing() {
         </div>
       </div>
 
+      <div className="text-black bg-zinc-100 mb-12 text-center p-7">
+        <div>
+          <h1 className="font-bold">PLANS</h1>
+          <h4 className="font-normal mb-2">Our Custom Plans</h4>
+          <p className="text-[14px] font-light mb-4">We have taken time to create plans that <br/>have been tailor made just for you.</p>
+        </div>
 
+        <div className="grid grid-cols-3">
+          <div className="border border-blue-800 p-5 w-52 text-blue-900 text-[14px]">
+            <h3 className="font-bold mb-3">BASIC</h3>
+            <a href="#" className="border border-blue-800 rounded-[5px] text-[12px] px-12 py-3">$5/<span>Month</span></a>
+            <p className="mt-4">3 Scans/Day</p>
+            <p>Daily Healthy Tips</p>
+            <p><s>Access to a Health Practitioner</s></p>
+            <p className="mb-4"><s>24/7 Customer Services</s></p>
+            <a href="#" className="border font-bold rounded-[5px] text-white bg-blue-800 text-[12px] px-12 py-3">Subscribe</a>
+          </div>
+          <div className="border border-blue-800 p-5 w-52 text-blue-900 text-[14px]">
+            <h3 className="font-bold mb-3">BASIC</h3>
+            <a href="#" className="border border-blue-800 rounded-[5px] text-[12px] px-12 py-3">$5/<span>Month</span></a>
+            <p className="mt-4">3 Scans/Day</p>
+            <p>Daily Healthy Tips</p>
+            <p><s>Access to a Health Practitioner</s></p>
+            <p className="mb-4"><s>24/7 Customer Services</s></p>
+            <a href="#" className="border font-bold rounded-[5px] text-white bg-blue-800 text-[12px] px-12 py-3">Subscribe</a>
+          </div>
+          <div className="border border-blue-800 p-5 w-52 text-blue-900 text-[14px]">
+            <h3 className="font-bold mb-3">BASIC</h3>
+            <a href="#" className="border border-blue-800 rounded-[5px] text-[12px] px-12 py-3">$5/<span>Month</span></a>
+            <p className="mt-4">3 Scans/Day</p>
+            <p>Daily Healthy Tips</p>
+            <p><s>Access to a Health Practitioner</s></p>
+            <p className="mb-4"><s>24/7 Customer Services</s></p>
+            <a href="#" className="border font-bold rounded-[5px] text-white bg-blue-800 text-[12px] px-12 py-3">Subscribe</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <div className="flex flex-col text-black items-center bg-zinc-100 p-14">
+      <h3 className="font-normal mb-6">Try the product out for free.</h3>
+      <form>
+        <input className="text-black bg-white mb-6 p-2 rounded-md drop-shadow-md" type="text" placeholder="Email" />
+      </form>
+      <a href="#" className=" font-medium border rounded-[5px] text-white bg-teal-600 text-[12px] px-12 py-3">Sign Up for waitlist</a>
+    </div>
 
       <Footer />
   </>
