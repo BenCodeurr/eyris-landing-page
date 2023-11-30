@@ -81,33 +81,36 @@ function Landing() {
         </div>
 
         <div className="grid grid-cols-3">
-          <div className="border border-blue-800 p-5 w-52 text-blue-900 text-[14px]">
-            <h3 className="font-bold mb-3">BASIC</h3>
+          <div className="border border-blue-800 p-5 pb-9 font-normal w-[260px] text-blue-900 text-[14px] leading-[25px]">
+            <h3 className="font-bold mb-5">Basic</h3>
             <a href="#" className="border border-blue-800 rounded-[5px] text-[12px] px-12 py-3">$5/<span>Month</span></a>
-            <p className="mt-4">3 Scans/Day</p>
+            <p className="mt-5">3 Scans/Day</p>
             <p>Daily Healthy Tips</p>
             <p><s>Access to a Health Practitioner</s></p>
-            <p className="mb-4"><s>24/7 Customer Services</s></p>
+            <p className="mb-5"><s>24/7 Customer Services</s></p>
             <a href="#" className="border font-bold rounded-[5px] text-white bg-blue-800 text-[12px] px-12 py-3">Subscribe</a>
           </div>
-          <div className="border border-blue-800 p-5 w-52 text-blue-900 text-[14px]">
-            <h3 className="font-bold mb-3">BASIC</h3>
-            <a href="#" className="border border-blue-800 rounded-[5px] text-[12px] px-12 py-3">$5/<span>Month</span></a>
-            <p className="mt-4">3 Scans/Day</p>
+
+          <div className="border p-5 pb-9  font-normal w-[260px] text-white bg-blue-800 text-[14px] leading-[25px]">
+            <h3 className="font-bold mb-5">Standard</h3>
+            <a href="#" className="border bg-white text-blue-800 rounded-[5px] text-[12px] px-12 py-3">$50/<span>Month</span></a>
+            <p className="mt-5">5 Scans/Day</p>
             <p>Daily Healthy Tips</p>
-            <p><s>Access to a Health Practitioner</s></p>
-            <p className="mb-4"><s>24/7 Customer Services</s></p>
-            <a href="#" className="border font-bold rounded-[5px] text-white bg-blue-800 text-[12px] px-12 py-3">Subscribe</a>
+            <p>Access to a Health Practitioner</p>
+            <p className="mb-5">24/7 Customer Services</p>
+            <a href="#" className="border font-bold rounded-[5px] bg-white text-blue-800 text-[12px] px-12 py-3">Subscribe</a>
           </div>
-          <div className="border border-blue-800 p-5 w-52 text-blue-900 text-[14px]">
-            <h3 className="font-bold mb-3">BASIC</h3>
-            <a href="#" className="border border-blue-800 rounded-[5px] text-[12px] px-12 py-3">$5/<span>Month</span></a>
-            <p className="mt-4">3 Scans/Day</p>
+
+          <div className="border border-blue-800 p-5 pb-9 font-normal w-[260px] text-blue-900 text-[14px] leading-[25px]">
+            <h3 className="font-bold mb-5">Premium</h3>
+            <a href="#" className="border border-blue-800 rounded-[5px] text-[12px] px-12 py-3">$120/<span>Month</span></a>
+            <p className="mt-5">Unlimited Scans/Day</p>
             <p>Daily Healthy Tips</p>
-            <p><s>Access to a Health Practitioner</s></p>
-            <p className="mb-4"><s>24/7 Customer Services</s></p>
+            <p>Access to a Health Practitioner</p>
+            <p className="mb-5">24/7 Customer Services</p>
             <a href="#" className="border font-bold rounded-[5px] text-white bg-blue-800 text-[12px] px-12 py-3">Subscribe</a>
           </div>
+
         </div>
       </div>
 
