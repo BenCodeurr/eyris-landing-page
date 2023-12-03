@@ -2,6 +2,11 @@
 import hero from "./../assets/images/hero.gif"
 import partner1 from "./../assets/images/mest.svg"
 import partner2 from "./../assets/images/partner.svg"
+import healthy1 from "./../assets/images/healthy1.jpg"
+import healthy2 from "./../assets/images/healthy2.jpg"
+import healthy3 from "./../assets/images/healthy3.jpg"
+import healthy4 from "./../assets/images/healthy4.jpg"
+import healthy5 from "./../assets/images/healthy5.jpg"
 import iris from "./../assets/images/iris.svg"
 import meal from "./../assets/images/meal.svg"
 import Icon1 from "./../assets/images/book-open.svg"
@@ -12,6 +17,7 @@ import tesmonial from "./../assets/images/testimonial-img.svg"
 import diet from "./../assets/images/diet-tips.svg"
 import Features from "../components/Features"
 import Card from "../components/Card"
+import HealthyTip from "../components/HealthyTip"
 import Footer from '../components/Footer'
 
 
@@ -111,6 +117,19 @@ function Landing() {
             <a href="#" className="border font-bold rounded-[5px] text-white bg-blue-800 text-[12px] px-12 py-3">Subscribe</a>
           </div>
 
+        </div>
+      </div>
+
+      <div className="text-black mb-12 text-center p-7">
+        <h1 className="font-bold">HEALTHY TIPS</h1>
+        <p className="text-[14px] font-light mb-4">Here are some tips on the dietary food options to help you stay healthy.</p>
+
+        <div className="flex gap-4">
+          <HealthyTip imgUrl= {healthy1} title="Special Feature"/>
+          <HealthyTip imgUrl= {healthy2} title="Special Feature"/>
+          <HealthyTip imgUrl= {healthy3} title="Special Feature"/>
+          <HealthyTip imgUrl= {healthy4} title="Special Feature"/>
+          <HealthyTip imgUrl= {healthy5} title="Special Feature"/>
         </div>
       </div>
 
