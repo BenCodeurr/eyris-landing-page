@@ -80,7 +80,7 @@ function Landing() {
           <p className="text-[14px] font-light mb-4">We have taken time to create plans that <br/>have been tailor made just for you.</p>
         </div>
 
-        <div className="grid grid-cols-3">
+        <div className="flex gap-5 justify-center">
           <div className="border border-blue-800 p-5 pb-9 font-normal w-[260px] text-blue-900 text-[14px] leading-[25px]">
             <h3 className="font-bold mb-5">Basic</h3>
             <a href="#" className="border border-blue-800 rounded-[5px] text-[12px] px-12 py-3">$5/<span>Month</span></a>
