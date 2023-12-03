@@ -2,6 +2,11 @@
 import hero from "./../assets/images/hero.gif"
 import partner1 from "./../assets/images/mest.svg"
 import partner2 from "./../assets/images/partner.svg"
+import healthy1 from "./../assets/images/healthy1.jpg"
+import healthy2 from "./../assets/images/healthy2.jpg"
+import healthy3 from "./../assets/images/healthy3.jpg"
+import healthy4 from "./../assets/images/healthy4.jpg"
+import healthy5 from "./../assets/images/healthy5.jpg"
 import iris from "./../assets/images/iris.svg"
 import meal from "./../assets/images/meal.svg"
 import Icon1 from "./../assets/images/book-open.svg"
@@ -12,6 +17,7 @@ import tesmonial from "./../assets/images/testimonial-img.svg"
 import diet from "./../assets/images/diet-tips.svg"
 import Features from "../components/Features"
 import Card from "../components/Card"
+import HealthyTip from "../components/HealthyTip"
 import Footer from '../components/Footer'
 
 
@@ -23,7 +29,7 @@ function Landing() {
           <div className="">
               <h2 className="text-[50px] font-semibold font-roboto leading-[50px] mb-8"><span className="text-blue-800">Seamless, Painless<br/> & Convenient</span> <br/>Way to Monitor your Blood Sugar Levels</h2>
               <p className="mb-8 text-[15px]">Experience the future of blood sugar monitoring with our Seamless, Painless & Convenient solution.</p>
-              <a href="#" className="border rounded-[5px] text-white bg-teal-600 text-[12px] px-12 py-3">Start Free Trial</a>
+              <a href="#" className="border rounded-[5px] text-white font-normal bg-teal-600 text-[12px] px-12 py-3">Start Free Trial</a>
           </div>
           
           <img className='w-[400px] h-[400px] object-cover mr-8' src={hero} alt="Hero Image" />
@@ -62,7 +68,7 @@ function Landing() {
         <div className="mr-20">
           <h2 className="text-xl font-extrabold mb-8">HOW IT WORKS</h2>
           <p className="mb-8">Unlock Wellness in Four Simple Steps: Open the app, scan your iris, wait for results, and receive personalized recommendations. Your path to health made simple.</p>
-          <a href="#" className="border rounded-[5px] text-white bg-teal-600 text-[12px] px-12 py-3">Get Started</a>
+          <a href="#" className="border rounded-[5px] text-white font-normal bg-teal-600 text-[12px] px-12 py-3">Get Started</a>
         </div>
 
         <div className="grid grid-cols-2 gap-4">
@@ -111,6 +117,19 @@ function Landing() {
             <a href="#" className="border font-bold rounded-[5px] text-white bg-blue-800 text-[12px] px-12 py-3">Subscribe</a>
           </div>
 
+        </div>
+      </div>
+
+      <div className="text-black mb-12 text-center p-7">
+        <h1 className="font-bold">HEALTHY TIPS</h1>
+        <p className="text-[14px] font-light mb-4">Here are some tips on the dietary food options to help you stay healthy.</p>
+
+        <div className="flex gap-4">
+          <HealthyTip imgUrl= {healthy1} title="Special Feature"/>
+          <HealthyTip imgUrl= {healthy2} title="Special Feature"/>
+          <HealthyTip imgUrl= {healthy3} title="Special Feature"/>
+          <HealthyTip imgUrl= {healthy4} title="Special Feature"/>
+          <HealthyTip imgUrl= {healthy5} title="Special Feature"/>
         </div>
       </div>
 
