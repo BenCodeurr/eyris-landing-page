@@ -32,7 +32,7 @@ function Header() {
           ))}
         </div>
       </div>
-      <h2 className="border border-teal-600 rounded-[3px] text-teal-600 text-[15px] cursor-pointer font-normal py-1 px-2">
+      <h2 className="border border-teal-600 rounded-[3px] text-teal-600 text-[15px] cursor-pointer font-normal font-roboto py-1 px-2 hover:bg-teal-600 hover:text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
         GET STARTED
       </h2>
     </div>
